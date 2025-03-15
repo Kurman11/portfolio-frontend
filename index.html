@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Keywords" content="프론트엔드" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, html, css, js, portfolio, python, django"
+    />
+    <meta name="Description" content="안녕하세요 김용진의 포트폴리오 입니다." />
+    <meta name="robots" content="index, follow" />
+
+    <!-- 제작일 -->
+    <meta name="Date" content="2020-06-05T07:45:37+09:00" />
+    <!-- 쓴언어 -->
+    <meta name="Content-Script-Type" content="Text/javascript" />
+    <!-- 주제 -->
+    <meta name="Subject" content="포트폴리오" />
+    <!-- 제작자 명 -->
+    <meta name="Author" content="용진" />
+    <!-- 제작사 -->
+    <meta name="publisher" content="용진" />
+    <!-- 책임자 -->
+    <meta name="Other Agent" content="용진" />
+    <!-- 제작도구 -->
+    <meta name="Generator" content="Visual Studio Code" />
+
+    <!-- 메일주소 -->
+    <meta name="Reply-To" content="skedyd45@naver.com" />
+    <meta name="Email" content="skedyd45@naver.com" />
+
+    <!-- 파일 이름 -->
+    <meta name="Filename" content="index.html" />
+
+    <!-- 위치 -->
+    <meta name="Location" content="incheon" />
+
+    <meta name="”geo.region”" content="”ko_kr”" />
+    <meta name="”geo.placename”" content="”incheon”" />
+    <meta name="”geo.position”" content="”126.7052062;37.4562557″" />
+    <meta name="”ICBM”" content="”126.7052062, 37.4562557″" />
+
+    <!-- 배포자 -->
+    <meta name="Distribution" content="용진" />
+
+    <!-- 저작권 -->
+    <meta name="Copyright" content="용진" />
+
+    <!-- 배포날짜 -->
+    <meta name="Build" content="date" />
+
+    <!-- 제작날짜 -->
+    <meta name="Last-Modified" content="Fri, 05 Jul 2020 19:40:40" />
+
+    <meta name="robots" content="index,follow" />
+
+    <!-- 파비콘 -->
+    <title>용진 포트폴리오</title>
+    <link rel="icon" href="./asset/images/android-chrome-512x512.png" />
+    <link rel="apple-touch-icon" href="./asset/images/apple-touch-icon.png" />
+
+    <!-- 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- swiperJS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>CREATIVE KIM YONGJIN</h1>
+      <div class="hamburger">
+        <input type="radio" id="menu" name="menu" hidden />
+        <label for="menu">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            fill="currentColor"
+            class="bi bi-list"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+            />
+          </svg>
+        </label>
+      </div>
+    </header>
+    <div class="menu-list">
+      <div class="menu-flex">
+        <ul>
+          <li class="active"><a href="#main">Main</a></li>
+          <li><a href="#section01">About me</a></li>
+          <li><a href="#section02">Study</a></li>
+          <li><a href="#section03">Skills</a></li>
+          <li><a href="#section04">Project</a></li>
+          <li><a href="#section05">contact</a></li>
+        </ul>
+        <div class="close-btn">
+          <input type="radio" id="menu2" name="menu" hidden />
+          <label for="menu2">
+            <svg
+              class="bi bi-x-lg menu-close-btn"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"
+              />
+            </svg>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <ul>
+        <li class="active"><a href="#main">Main</a></li>
+        <li><a href="#section01">About me</a></li>
+        <li><a href="#section02">Study</a></li>
+        <li><a href="#section03">Skills</a></li>
+        <li><a href="#section04">Project</a></li>
+        <li><a href="#section05">contact</a></li>
+      </ul>
+    </div>
+    <main class="main" id="main">
+      <div class="bg"></div>
+      <div class="mobile-bg"></div>
+      <div class="main-text-area">
+        <h2>Front-End</h2>
+        <h2>Developer</h2>
+      </div>
+      <div class="main-text-box">
+        <p class="text-area">안녕하세요!</p>
+        <strong class="text-area-sub01">프론트엔드 개발자</strong>
+        <p class="text-area-sub02">김용진 입니다.</p>
+      </div>
+      <div class="bg-filter"></div>
+    </main>
+    <section class="section01" id="section01">
+      <h2 class="section01-title">About me</h2>
+      <div
+        class="profile"
+        data-aos="fade-up"
+        data-aos-delay="200"
+        data-aos-duration="1000"
+      >
+        <div class="introduction">
+          <div>
+            <div class="photoCard">
+              <img src="./asset/images/취업사진.jpg" alt="사진" />
+            </div>
+          </div>
+          <ul>
+            <li>
+              <div class="introduction-flex">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="currentColor"
+                  class="bi bi-person-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                  />
+                </svg>
+                <p>이름 : 김용진</p>
+              </div>
+            </li>
+            <li>
+              <div class="introduction-flex">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="currentColor"
+                  class="bi bi-calendar3-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2zm0 1v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3z"
+                  />
+                </svg>
+                <p>생년월일 : 95.08.07</p>
+              </div>
+            </li>
+            <li>
+              <div class="introduction-flex">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="currentColor"
+                  class="bi bi-mortarboard-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917z"
+                  />
+                  <path
+                    d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z"
+                  />
+                </svg>
+                <p>학력 : 가톨릭관동대학교 전자공학과 졸업</p>
+              </div>
+            </li>
+            <li>
+              <div class="introduction-flex">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="currentColor"
+                  class="bi bi-laptop-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2.5 2A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"
+                  />
+                </svg>
+                <p>수료 내용 : [멀티잇]풀스택 개발자 취업캠프 Python</p>
+              </div>
+            </li>
+            <li>
+              <p>
+                "&nbsp; 지속가능성을 중요하게 생각하고 있으며 함께 일하고 싶은
+                개발자가 되야 한다는 생각으로 협업 시 서로의 작업방식을 공유하고
+                컨벤션 설정과 소통에 적극적입니다. &nbsp;"
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="section02" id="section02">
+      <h2 class="section02-title">Study</h2>
+      <ul>
+        <li data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+          <a href="https://github.com/KDT2-Algorithm-study" target="_blank">
+            <img src="./asset/images/study01.png" alt="알고리즘스터디" />
+            <p>
+              <b>KDT2-Algorithm-study</b><br /><b>2023-02-08 ~ 2023-05-09</b
+              ><br />
+              <b
+                >교육 이수하는 도중 스터디에 참여해서 추가적인 알고리즘 공부를
+                했습니다.</b
+              >
+            </p>
+          </a>
+        </li>
+        <li data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
+          <a href="https://github.com/M-Algorithm-Study" target="_blank">
+            <img src="./asset/images/study02.png" alt="알고리즘스터디" />
+            <p>
+              <b>M-Algorithm-Study</b><br /><b>2023-07-03 ~ 2023-11-14</b><br />
+              <b
+                >교육 완료 후 동료들과 함께 스터디를 개설해서 알고리즘 공부를
+                진행했습니다.</b
+              >
+            </p>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="section03" id="section03">
+      <h2 class="section03-title">SKILLS</h2>
+      <img
+        class="python"
+        src="./asset/images/ico_python.png"
+        alt="python logo"
+      />
+      <img class="css" src="./asset//images/ico_css.png" alt="css logo" />
+      <img
+        class="django"
+        src="./asset/images/ico_django.png"
+        alt="django logo"
+      />
+      <img class="figma" src="./asset/images/ico_figma.png" alt="figma logo" />
+      <img
+        class="github"
+        src="./asset/images/ico_github.png"
+        alt="github logo"
+      />
+      <img class="html" src="./asset/images/ico_html.png" alt="html logo" />
+      <img class="js" src="./asset/images/ico_js.png" alt="js logo" />
+      <img class="react" src="./asset/images/ico_react.png" alt="react logo" />
+      <img
+        class="tailwind"
+        src="./asset/images/ico_tailwind.png"
+        alt="tailwind logo"
+      />
+      <img class="aws" src="./asset/images/ico_aws.png" alt="aws logo" />
+      <img
+        class="discord"
+        src="./asset/images/ico_discord.png"
+        alt="discord logo"
+      />
+      <img
+        class="gitlab"
+        src="./asset/images/ico_gitlab.png"
+        alt="gitlab logo"
+      />
+      <div class="section-card">
+        <h4>FrondEnd</h4>
+        <div>
+          <img src="./asset/images/ico_css_48.png" alt="css logo" />
+          <img src="./asset/images/ico_html_48.png" alt="html logo" />
+          <img src="./asset/images/ico_react_48.png" alt="react logo" />
+          <img src="./asset/images/ico_tailwind_48.png" alt="tailwind logo" />
+          <img src="./asset/images/ico_js_48.png" alt="js logo" />
+        </div>
+        <h4>BackEnd</h4>
+        <div>
+          <img src="./asset/images/ico_django_48.png" alt="django logo" />
+          <img src="./asset/images/ico_python_48.png" alt="python logo" />
+          <img src="./asset/images/ico_aws_48.png" alt="aws logo" />
+        </div>
+        <h4>Tools</h4>
+        <div>
+          <img src="./asset/images/ico_figma_48.png" alt="figma logo" />
+          <img src="./asset/images/ico_github_48.png" alt="github logo" />
+          <img src="./asset/images/ico_gitlab_48.png" alt="gitlab logo" />
+          <img src="./asset/images/ico_discord_48.png" alt="discord logo" />
+        </div>
+      </div>
+    </section>
+    <section class="section04" id="section04">
+      <h2 class="section04-title">Project</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="box">
+              <button
+                class="project-open-btn"
+                type="button"
+                popovertarget="ieum"
+              >
+                <span>오늘, 이음</span>
+                <img
+                  class="project-img"
+                  src="./asset/images/이음메인페이지.png"
+                  alt="오늘, 이음 메인페이지"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <button
+                class="project-open-btn"
+                type="button"
+                popovertarget="todays-taste"
+              >
+                <span>오늘의취향</span>
+                <img
+                  class="project-img"
+                  src="./asset/images/오늘의취향메인페이지.png"
+                  alt="오늘의취향메인페이지"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <button
+                class="project-open-btn"
+                type="button"
+                popovertarget="rescue9"
+              >
+                <span>편식구조대</span>
+                <img
+                  class="project-img"
+                  src="./asset/images/편식구조대.png"
+                  alt="편식구조대"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <button
+                class="project-open-btn"
+                type="button"
+                popovertarget="eungye-service"
+              >
+                <span>은계성당 서비스 페이지</span>
+                <img
+                  class="project-img"
+                  src="./asset/images/은계성당.png"
+                  alt="은계성당"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <button
+                class="project-open-btn"
+                type="button"
+                popovertarget="eungye-admin"
+              >
+                <span>은계성당 관리자 페이지</span>
+                <img
+                  class="project-img"
+                  src="./asset/images/은계성당관리자.PNG"
+                  alt="은계성당"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <button
+                class="project-open-btn"
+                type="button"
+                popovertarget="todo-list"
+              >
+                <span>TodoList</span>
+                <img
+                  class="project-img"
+                  src="./asset/images/todoList.PNG"
+                  alt="todo-list이미지"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next slide-btn"></div>
+        <div class="swiper-button-prev slide-btn"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <section class="section05" id="section05">
+      <div class="aspiration">
+        <h3>감사합니다.</h3>
+        <p>
+          낯선 기술에도 두려움 없이 도전하며 성장하는 개발자가 되고,
+          <br />사용자 경험을 최우선으로 하는 서비스를 만들어가겠습니다.
+        </p>
+        <p>email : skedyd45@naver.com</p>
+        <a href="https://github.com/Kurman11" class="btn" target="_blank">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            fill="currentColor"
+            class="bi bi-github"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+            />
+          </svg>
+          <p>Git hub</p>
+        </a>
+      </div>
+      <div class="bg-filter"></div>
+    </section>
+    <footer class="footer">
+      <p>
+        본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 <br />
+        제작되었습니다.
+      </p>
+      <p>© 2025 Kim, Yong-Jin. All Rights Reserved.</p>
+    </footer>
+
+    <div class="modal" role="dialog" id="ieum" popover>
+      <button
+        class="modal-close-btn"
+        type="button"
+        popovertarget="ieum"
+        popovertargetaction="hide"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="currentColor"
+          class="bi bi-x-lg"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"
+          />
+        </svg>
+      </button>
+      <div class="modal-introduction-div">
+        <h4>오늘, 이음</h4>
+        <div>
+          <ul>
+            <li><b>팀 프로젝트</b></li>
+            <li><b>역할 : </b> 팀 리더 / 백엔드 개발</li>
+            <li><b>프로젝트 기간 : </b> 2023.05.22 ~ 2023.06.16</li>
+            <li>
+              <b>프로젝트 소개 : </b>오늘, 이음 프로젝트는 밸런스 게임을 통해
+              사용자들이 현실적인 주제와 공감할 수 있는 주제로 나뉘어 소통할 수
+              있는 커뮤니티 사이트입니다.
+            </li>
+          </ul>
+          <br />
+          <b>담당업무</b>
+          <ul class="modal-introduction-ul">
+            <li>Django를 활용한 기본 CRUD 기능 구현</li>
+            <li>Spotify API를 활용한 프로필 페이지 제작</li>
+            <li>프로젝트 진행 중 발생한 각종 오류 해결 및 팀원 지원</li>
+            <li>
+              팀 리더 역할 수행, 원활한 협업을 위한 커뮤니케이션 및 프로젝트
+              관리
+            </li>
+          </ul>
+        </div>
+        <a href="https://github.com/Kurman11/ieum" class="btn" target="_blank">
+          View Code
+        </a>
+      </div>
+    </div>
+
+    <div class="modal" role="dialog" id="todays-taste" popover>
+      <button
+        class="modal-close-btn"
+        type="button"
+        popovertarget="todays-taste"
+        popovertargetaction="hide"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="currentColor"
+          class="bi bi-x-lg"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"
+          />
+        </svg>
+      </button>
+      <div class="modal-introduction-div">
+        <h4>오늘의 취향</h4>
+        <div>
+          <ul>
+            <li><b>팀 프로젝트</b></li>
+            <li><b>역할 : </b>풀스택 개발</li>
+            <li><b>프로젝트 기간 : </b> 2023.04.27 ~ 2023.05.08</li>
+            <li>
+              <b>프로젝트 소개 : </b>기존에 배운 내용을 토대로 주요 기능 위주의
+              개발을 하며, 해당 페이지를 최대한 비슷하게 클론코딩을 목표로
+              제작했습니다.
+            </li>
+          </ul>
+          <br />
+          <b>담당업무</b>
+          <ul class="modal-introduction-ul">
+            <li>Django를 활용한 기본 CRUD 기능 구현</li>
+            <li>
+              로그인 페이지, 회원가입 페이지, profile 페이지 이후 팀원들과
+              공동으로 나머지 페이지 제작
+            </li>
+            <li>프로젝트 진행 중 발생한 각종 오류 해결 및 팀원 지원</li>
+          </ul>
+        </div>
+        <a
+          href="https://github.com/Kurman11/Todays-taste"
+          class="btn"
+          target="_blank"
+        >
+          View Code
+        </a>
+      </div>
+    </div>
+
+    <div class="modal" role="dialog" id="rescue9" popover>
+      <button
+        class="modal-close-btn"
+        type="button"
+        popovertarget="rescue9"
+        popovertargetaction="hide"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="currentColor"
+          class="bi bi-x-lg"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"
+          />
+        </svg>
+      </button>
+      <div class="modal-introduction-div">
+        <h4>편식구조대</h4>
+        <div>
+          <ul>
+            <li><b>팀 프로젝트</b></li>
+            <li><b>역할 : </b> 팀 리더 / 백엔드 개발</li>
+            <li><b>프로젝트 기간 : </b> 2023.05.09 ~ 2023.05.19</li>
+            <li>
+              <b>프로젝트 소개 : </b>편의점 이용률 상승에 따라 편의점 음식을
+              이용할 때, 소비자의 취향 상황 등을 고려한 선택의 다양화 제공을
+              위해 사이트를 제작했습니다.
+            </li>
+          </ul>
+          <br />
+          <b>담당업무</b>
+          <ul class="modal-introduction-ul">
+            <li>Django를 활용한 기본 CRUD 기능 구현</li>
+            <li>products페이지 제작</li>
+            <li>프로젝트 진행 중 발생한 각종 오류 해결 및 팀원 지원</li>
+            <li>
+              팀 리더 역할 수행, 원활한 협업을 위한 커뮤니케이션 및 프로젝트
+              관리
+            </li>
+          </ul>
+        </div>
+        <a
+          href="https://github.com/Kurman11/Rescue9"
+          class="btn"
+          target="_blank"
+        >
+          View Code
+        </a>
+      </div>
+    </div>
+    <div class="modal" role="dialog" id="eungye-service" popover>
+      <button
+        class="modal-close-btn"
+        type="button"
+        popovertarget="eungye-service"
+        popovertargetaction="hide"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="currentColor"
+          class="bi bi-x-lg"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"
+          />
+        </svg>
+      </button>
+      <div class="modal-introduction-div">
+        <h4>은계성당 서비스 페이지</h4>
+        <div>
+          <ul>
+            <li><b>팀 프로젝트</b></li>
+            <li><b>역할 : 퍼블리싱</b></li>
+            <li><b>프로젝트 기간 : </b> 2024.12.06 ~ ing</li>
+            <li>
+              <b>프로젝트 소개 : </b>경기도 시흥시 은계 성당 서비스 페이지를
+              만들었습니다.
+            </li>
+          </ul>
+          <br />
+          <b>담당업무</b>
+          <ul class="modal-introduction-ul">
+            <li>컴포넌트 퍼블리싱</li>
+          </ul>
+        </div>
+        <a
+          href="https://github.com/DongJae-Go-FE/Eungye_Cathedral"
+          class="btn"
+          target="_blank"
+        >
+          View Code
+        </a>
+      </div>
+    </div>
+    <div class="modal" role="dialog" id="todo-list" popover>
+      <button
+        class="modal-close-btn"
+        type="button"
+        popovertarget="todo-list"
+        popovertargetaction="hide"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="currentColor"
+          class="bi bi-x-lg"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"
+          />
+        </svg>
+      </button>
+      <div class="modal-introduction-div">
+        <h4>TodoList</h4>
+        <div>
+          <ul>
+            <li><b>개인 프로젝트</b></li>
+            <li><b>역할 : 퍼블리싱 / LocalStorage 적용</b></li>
+            <li><b>프로젝트 기간 : </b> 2025.03.05 ~ 2025.03.07</li>
+            <li>
+              <b>프로젝트 소개 : </b>한 입 크기로 잘라 먹는 리액트(React.js) :
+              기초부터 실전까지 강의를 보며 TodoList 페이지를 react사용해
+              만들었고 나아가 LocalStorage 적용해 LocalStorage 데이터를 저장하는
+              기능을 추가했습니다.
+            </li>
+          </ul>
+          <br />
+          <ul class="modal-introduction-ul">
+            <li>react를 사용해 CRUD를 통해 페이지 제작</li>
+            <li>컴포넌트 퍼블리싱</li>
+            <li>LocalStorage 적용</li>
+          </ul>
+        </div>
+        <a
+          href="https://github.com/Kurman11/todolist"
+          class="btn"
+          target="_blank"
+        >
+          View Code
+        </a>
+      </div>
+    </div>
+    <div class="modal" role="dialog" id="eungye-admin" popover>
+      <button
+        class="modal-close-btn"
+        type="button"
+        popovertarget="eungye-admin"
+        popovertargetaction="hide"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="currentColor"
+          class="bi bi-x-lg"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"
+          />
+        </svg>
+      </button>
+      <div class="modal-introduction-div">
+        <h4>은계성당 관리자 페이지</h4>
+        <div>
+          <ul>
+            <li><b>팀 프로젝트</b></li>
+            <li><b>역할 : 퍼블리싱 / 프론트엔드</b></li>
+            <li><b>프로젝트 기간 : </b> 2024.12.06 ~ 2025.03.09</li>
+            <li>
+              <b>프로젝트 소개 : </b>경기도 시흥시 은계 성당 관리자 페이지를
+              만들었습니다.
+            </li>
+          </ul>
+          <br />
+          <b>담당업무</b>
+          <ul class="modal-introduction-ul">
+            <li>컴포넌트 퍼블리싱</li>
+            <li>
+              tailwind, html, next.js, css, javascript, react, typescript CRUD를
+              만드는 경험을 했습니다.
+            </li>
+          </ul>
+        </div>
+        <a
+          href="https://github.com/DongJae-Go-FE/Eungye_Cathedral_Admin"
+          class="btn"
+          target="_blank"
+        >
+          View Code
+        </a>
+      </div>
+    </div>
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- aos -->
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
